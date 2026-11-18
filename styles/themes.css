@@ -1,0 +1,6 @@
+/* Theme variables. Add a theme = one block here + one entry in lib/themes.js */
+:root{--ac:#ff7a1a;--ac2:#ffb36b;--acr:255 122 26;--acd:#7a3a1a;--on:#fff;--bgd:#16120f;--f1:rgba(100,88,84,.78);--f2:rgba(52,44,42,.82);--f3:rgba(30,24,22,.88)}
+:root[data-theme="lime"]{--ac:#a3e635;--ac2:#d9f99d;--acr:163 230 53;--acd:#3f6212;--on:#10200a;--bgd:#0e120b;--f1:rgba(78,90,70,.78);--f2:rgba(40,48,36,.82);--f3:rgba(21,27,18,.88)}
+:root[data-theme="ocean"]{--ac:#22d3ee;--ac2:#a5f3fc;--acr:34 211 238;--acd:#0e4a5a;--on:#04222b;--bgd:#0a1216;--f1:rgba(66,86,96,.78);--f2:rgba(34,46,54,.82);--f3:rgba(18,26,31,.88)}
+:root[data-theme="violet"]{--ac:#a78bfa;--ac2:#ddd6fe;--acr:167 139 250;--acd:#4c2a8a;--on:#1b1033;--bgd:#110e18;--f1:rgba(88,78,104,.78);--f2:rgba(46,40,58,.82);--f3:rgba(26,22,34,.88)}
+:root[data-theme="rose"]{--ac:#fb7185;--ac2:#fecdd3;--acr:251 113 133;--acd:#7f1d33;--on:#2a0a12;--bgd:#150d10;--f1:rgba(104,80,86,.78);--f2:rgba(54,40,44,.82);--f3:rgba(30,22,25,.88)}

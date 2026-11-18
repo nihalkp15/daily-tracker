@@ -1,0 +1,19 @@
+@media (max-width:860px){
+.stage{padding:8px}.frame{flex-direction:column;border-radius:28px;padding:10px}
+.side{position:fixed;z-index:10;bottom:12px;left:50%;transform:translateX(-50%);width:auto;flex-direction:row;padding:8px 12px;top:auto;align-self:auto;border:1px solid var(--ln)}
+.side .logo{display:none}.side nav{flex-direction:row}.side button::after{display:none}
+.content{padding-bottom:84px}
+.s4,.s5,.s7,.s8{grid-column:span 12}
+.hero{min-height:420px}.photo{right:-10%}
+.addrow{grid-template-columns:1fr 1fr}.addrow input:first-child{grid-column:1/-1}
+.lrow span:nth-of-type(n+2),.lrow svg{display:none}
+}
+@media (prefers-reduced-motion:reduce){*,*::before{animation-duration:.01ms!important;animation-delay:0s!important;transition-duration:.01ms!important}.line{stroke-dashoffset:0}}
+@media (max-width:860px){.navpill{transform:translateX(calc(var(--idx) * 50px))}}
+@media (max-width:860px){.s6{grid-column:span 12}}
+body{-webkit-text-size-adjust:100%;overscroll-behavior-y:none}
+@media (max-width:860px){
+.side{bottom:calc(12px + env(safe-area-inset-bottom,0px))}
+.stage{padding-top:calc(8px + env(safe-area-inset-top,0px))}
+input,select,textarea{font-size:16px}
+}
